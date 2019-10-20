@@ -7,13 +7,10 @@ class MaxHeap {
 	}
 
 	push(data, priority) {
-
 	}
 
 	pop() {
-		const args = [...arguments];
-		args.pop();
-		return args;
+
 	}
 
 	detachRoot() {
@@ -25,11 +22,10 @@ class MaxHeap {
 	}
 
 	size() {
-		return this.length;
 	}
 
 	isEmpty() {
-		return this.length < 1;
+
 	}
 
 	clear() {
